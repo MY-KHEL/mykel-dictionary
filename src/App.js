@@ -25,6 +25,7 @@ const App = () => {
   //console.log(meaning);
   useEffect(() => {
     dictionaryApi();
+    // eslint-disable-next-line
   }, [ word ]);
 
   return (
